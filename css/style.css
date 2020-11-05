@@ -1,0 +1,73 @@
+body {
+    margin: 60px;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    margin-bottom: 58px;
+}
+
+h1,
+p {
+    text-align: center;
+    color: blue;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+.row {
+    width: 50%;
+    height: auto;
+    /* text-align: center; */
+    margin: 20px auto;
+}
+
+.links-holder {
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin: 1px auto;
+}
+
+.link {
+    width: 100%;
+    text-align: justify;
+}
+
+.link p a {
+    margin: 0px 42px;
+}
+
+.row > .cell {
+    width: 32%;
+    height: 70px;
+    background-color: aqua;
+    border: blue solid 1px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cell.active {
+    background-color: blue;
+    cursor: wait;
+    height: 50px;
+    width: calc(32% - 20px);
+    margin: 10px;
+    box-shadow: brown 3px 3px 10px;
+}
+
+.cell:hover {
+    border-radius: 18px;
+}
+
+.cell:active {
+    border-radius: 1px;
+}
+
+p {
+    font-size: 45px;
+    /* margin-top: 130px; */
+}
